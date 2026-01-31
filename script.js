@@ -56,12 +56,26 @@ I love you more than you’ll ever fully understand 💘, and I’ll keep loving
 Forever yours 💖😘
 `;
 
-// ---------- NO button dodge (stays inside area) ----------
-function dodgeNoButton(btn = noBtn) {
+// ---------- NO button escape (PAGE 1) ----------
+let noEscaping = false;
+
+function dodgeNoButton() {
   const padding = 10;
 
+  // Convert to absolute only once
+  if (!noEscaping) {
+    const btnRect = noBtn.getBoundingClientRect();
+    const areaRect = btnArea.getBoundingClientRect();
+
+    noBtn.style.position = "absolute";
+    noBtn.style.left = (btnRect.left - areaRect.left) + "px";
+    noBtn.style.top  = (btnRect.top  - areaRect.top)  + "px";
+
+    noEscaping = true;
+  }
+
   const areaRect = btnArea.getBoundingClientRect();
-  const btnRect = btn.getBoundingClientRect();
+  const btnRect = noBtn.getBoundingClientRect();
 
   const maxX = areaRect.width - btnRect.width - padding;
   const maxY = areaRect.height - btnRect.height - padding;
@@ -69,20 +83,19 @@ function dodgeNoButton(btn = noBtn) {
   const x = Math.random() * maxX;
   const y = Math.random() * maxY;
 
-  btn.style.left = Math.max(padding, x) + "px";
-  btn.style.top = Math.max(padding, y) + "px";
+  noBtn.style.left = Math.max(padding, x) + "px";
+  noBtn.style.top  = Math.max(padding, y) + "px";
 }
 
-noBtn.addEventListener("mouseenter", () => dodgeNoButton(noBtn));
+noBtn.addEventListener("mouseenter", dodgeNoButton);
 noBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  dodgeNoButton(noBtn);
+  dodgeNoButton();
 });
 
 // ---------- YES (page 1 -> page 2) ----------
 yesBtn.addEventListener("click", () => {
   showPage("page2");
-  page2Title.innerHTML = "To My Babe Rajat 💖💖💖";
 
   pageIndex = 0;
   message.innerHTML = lovePages[pageIndex];
@@ -116,20 +129,46 @@ openLetterBtn.addEventListener("click", () => {
   letterText.innerHTML = loveLetter;
 });
 
+// ---------- Forever NO escape (PAGE 4) ----------
+let foreverEscaping = false;
+
+function dodgeForeverNo() {
+  const padding = 10;
+
+  if (!foreverEscaping) {
+    const btnRect = foreverNo.getBoundingClientRect();
+    const areaRect = finalButtons.getBoundingClientRect();
+
+    foreverNo.style.position = "absolute";
+    foreverNo.style.left = (btnRect.left - areaRect.left) + "px";
+    foreverNo.style.top  = (btnRect.top  - areaRect.top)  + "px";
+
+    foreverEscaping = true;
+  }
+
+  const areaRect = finalButtons.getBoundingClientRect();
+  const btnRect = foreverNo.getBoundingClientRect();
+
+  const x = Math.random() * (areaRect.width - btnRect.width - padding);
+  const y = Math.random() * (areaRect.height - btnRect.height - padding);
+
+  foreverNo.style.left = Math.max(padding, x) + "px";
+  foreverNo.style.top  = Math.max(padding, y) + "px";
+}
+
+foreverNo.addEventListener("mouseenter", dodgeForeverNo);
+foreverNo.addEventListener("click", (e) => {
+  e.preventDefault();
+  dodgeForeverNo();
+});
+
 // ---------- Forever YES ----------
 foreverYes.addEventListener("click", () => {
   finalButtons.classList.add("hidden");
   showPage("page5");
 });
 
-// ---------- Forever NO dodges too ----------
-foreverNo.addEventListener("mouseenter", () => dodgeNoButton(foreverNo));
-foreverNo.addEventListener("click", (e) => {
-  e.preventDefault();
-  dodgeNoButton(foreverNo);
-});
-
-// ---------- Floating Hearts (UNDER card) ----------
+// ---------- Floating Hearts ----------
 function createBgHeart() {
   const heart = document.createElement("div");
   heart.className = "bg-heart";
