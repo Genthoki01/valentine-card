@@ -41,17 +41,17 @@ To My Babe Rajat 💖,<br><br>
 
 I don’t even know where to start because there are so many things I want to say, and none of them feel big enough to explain how much you mean to me 🥺✨ But I’ll try, because you deserve to know 💌.<br><br>
 
-You’ve become one of the most beautiful parts of my life 💕. In the way you make me smile without trying 😊, in the way you make me feel safe even when everything else feels messy 🫶, and in the way you always manage to bring light into my darkest days ✨. Loving you feels like home 🏡💗 — warm, comforting, and real.<br><br>
+You’ve become one of the most beautiful parts of my life 💕. In the way you make me smile without trying 😊, in the way you make me feel safe even when everything else feels messy 🫶, and in the way you always manage to bring light into my darkest days ✨. Loving you feels like home 💗 warm, comforting, and real.<br><br>
 
 I love the little things about you the most 🥰. The way you talk 🗣️, the way you laugh 😄, the way you look at me like I’m someone worth loving 💘. You make me feel special in a way I never thought I could feel 💞, and I’m so grateful for you 😘.<br><br>
 
-Thank you for being patient with me 🫶, for caring about me 💗, for choosing me even on the days I don’t feel like I deserve it 🥺. Thank you for being the kind of person who makes love feel gentle, not scary 💕.<br><br>
+Thank you for being patient with me , for caring about me 💗, for choosing me even on the days I don’t feel like I deserve it 🥺. Thank you for being the kind of person who makes love feel gentle, not scary 💕.<br><br>
 
-I want you to know that I’m proud of you 🥹💖. For everything you’ve done, everything you’re doing, and everything you’re becoming 🌟. I believe in you more than words can say 💪💗, and I’ll always be here cheering you on 🎉.<br><br>
+I want you to know that I’m proud of you 🥹💖. For everything you’ve done, everything you’re doing, and everything you’re becoming 🌟. I believe in you more than words can say , and I’ll always be here cheering you on .<br><br>
 
-No matter what happens, I want you in my life 💞. I want to make memories with you 📸, laugh with you 😂, grow with you 🌱, and love you in every season 🍂🌸. You are not just someone I love… you are someone I want a future with 💍💖.<br><br>
+No matter what happens, I want you in my life 💞. I want to make memories with you , laugh with you , grow with you , and love you in every season 🍂🌸. You are not just someone I love… you are someone I want a future with 💍💖.<br><br>
 
-I love you more than you’ll ever fully understand 💘, and I’ll keep loving you — today 💗, tomorrow 💕, and always ♾️✨.<br><br>
+I love you more than you’ll ever fully understand 💘, and I’ll keep loving you today 💗, tomorrow 💕, and always ♾️✨.<br><br>
 
 Forever yours 💖😘
 `;
