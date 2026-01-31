@@ -43,7 +43,7 @@ I don’t even know where to start because there are so many things I want to sa
 
 You’ve become one of the most beautiful parts of my life 💕. In the way you make me smile without trying 😊, in the way you make me feel safe even when everything else feels messy 🫶, and in the way you always manage to bring light into my darkest days ✨. Loving you feels like home 💗 warm, comforting, and real.<br><br>
 
-I love the little things about you the most 🥰. The way you talk 🗣️, the way you laugh 😄, the way you look at me like I’m someone worth loving 💘. You make me feel special in a way I never thought I could feel 💞, and I’m so grateful for you 😘.<br><br>
+I love the little things about you the most 🥰. The way you talk , the way you laugh , the way you look at me like I’m someone worth loving 💘. You make me feel special in a way I never thought I could feel 💞, and I’m so grateful for you 😘.<br><br>
 
 Thank you for being patient with me , for caring about me 💗, for choosing me even on the days I don’t feel like I deserve it 🥺. Thank you for being the kind of person who makes love feel gentle, not scary 💕.<br><br>
 
